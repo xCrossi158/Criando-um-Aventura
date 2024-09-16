@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>A Aventura de um Heroi</title>
+</head>
+
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+                <img src="cenario-passo0.png" alt="">
+                <p>Você é um jovem aventureiro em busca de um propósito. Um velho sábio do vilarejo te oferece uma missão para recuperar um artefato mágico perdido.</p>
+                <button class="btn-proximo" data-proximo="1">Aceitar a missão</button>
+                <button class="btn-proximo" data-proximo="2">Recusar e seguir seu próprio caminho</button>
+        </div>
+        <div class="passo" id="passo-1">
+                <p>Você decide aceitar a missão e se prepara para partir</p>
+                <button class="btn-proximo" data-proximo="3">Seguir diretamente para o templo onde o artefato está.</button>
+                <button class="btn-proximo" data-proximo="4">Visitar um mercador para comprar suprimentos antes de partir.</button>
+        </div>
+        <div class="passo" id="passo-2">
+                <p>Você recusa a missão, mas descobre que outras pessoas estão atrás do artefato para fins malignos. A missão se torna inevitável.</p>
+                <button class="btn-proximo" data-proximo="5">Mudar de ideia e aceitar a missão tarde demais.</button>
+                <button class="btn-proximo" data-proximo="6">Decidir investigar o templo por conta própria.</button>
+        </div>
+        <div class="passo" id="passo-3">
+                <p>No caminho para o templo, você se depara com um Pântano e mesmo sendo perigoso você continua</p>
+                <button class="btn-proximo" data-proximo="7">Escolher o pântano.</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+                <p>Você é emboscado por criaturas do pântano. Atravessar esse caminho não será fácil</p>
+                <button class="btn-proximo" data-proximo="8">Lutar contra as criaturas para abrir caminho.</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+                <p>Após uma luta veroz, você chega à base do templo, mas descobre que não está sozinho. Outros caçadores de tesouros estão lá.</p>
+                <button class="btn-proximo" data-proximo="9">Tentar passar despercebido por eles.</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+                <p>Você consegue entrar no templo antigo. No interior, há armadilhas que testam sua coragem e habilidades.</p>
+                <button class="btn-proximo" data-proximo="10">Desarmar as armadilhas usando habilidade e estratégia.</button>
+                <button class="btn-proximo" data-proximo="11">Usar sua rapidez e força para passar pelas armadilhas.</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+                <p>No centro do templo, você encontra um enigma que protege o artefato.</p>
+                <button class="btn-proximo" data-proximo="12">Resolver o enigma e obter o artefato</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+                <p>Quando você finalmente alcança o artefato, um poderoso guardião aparece para protegê-lo.</p>
+                <button class="btn-proximo" data-proximo="13">Enfrentar o guardião em combate.</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+                <p>Você consegue superar o guardião e finalmente segura o artefato mágico, mas percebe que ele é mais poderoso do que parecia.</p>
+                <button class="btn-proximo" data-proximo="14"> Levar o artefato de volta ao sábio do vilarejo.</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+                <p>De volta ao vilarejo, o sábio agradece por sua bravura. O artefato está seguro, mas você percebe que novas aventuras o aguardam no futuro.</p>
+        </div>
+
+</main>
+
+
+
+
+
+
+<script src= "script.js"></script>
+
+
+    
+</body>
+</html>
